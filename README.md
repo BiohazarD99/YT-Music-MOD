@@ -38,6 +38,10 @@ Silakan join.
 4. Ikon hati = favorit. **Playlist** = simpan ke folder. Di halaman album/artis, **Save** masuk tab Saved
 5. Pindah HP? Library → **Backup**, di perangkat baru **Restore**
 
+### Desktop / PC
+
+Di laptop atau komputer, Rich Music langsung siap. Buka situsnya, pilih lagu, dan putar — tidak perlu pengaturan tambahan.
+
 ### Putar di latar belakang (Android)
 
 Musik tetap jalan saat layar terkunci atau pindah aplikasi, **tanpa mode desktop**.
