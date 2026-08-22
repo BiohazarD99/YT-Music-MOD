@@ -1,67 +1,168 @@
 # Rich Music
 
-Pemutar musik web **gratis** — katalog YouTube Music, tampilan seperti Spotify. Tanpa akun.
+**Pemutar musik web gratis** bergaya Spotify, katalog [YouTube Music](https://music.youtube.com). Tanpa akun.
 
-**Buka sekarang:** [richmusic.vercel.app](https://richmusic.vercel.app)
+- **Website:** [richmusic.vercel.app](https://richmusic.vercel.app)
+- **Repo:** [github.com/ramax100/YT-Music-Mod](https://github.com/ramax100/YT-Music-Mod)
+- **Telegram:** [t.me/ChRichStore](https://t.me/ChRichStore)
 
-Gratis. Bebas dipakai. Bukan produk resmi YouTube / Google / Spotify.
+Project ini **gratis** dan **bebas dipakai**. Fork, ubah, deploy sendiri, atau bagikan — silakan.
+
+---
+
+## Tentang
+
+Rich Music adalah pemutar musik di browser. Cari lagu, buka album dan artis, buat playlist, lihat lirik, atur antrian — semuanya tanpa daftar akun.
+
+Library (favorit, playlist, riwayat, statistik) tersimpan di perangkatmu. Audio diputar lewat pemutar resmi YouTube.
+
+Tidak berafiliasi dengan YouTube, Google, atau Spotify.
 
 ---
 
 ## Channel Telegram
 
-Update & komunitas: **[t.me/ChRichStore](https://t.me/ChRichStore)**
+Update, info fitur, dan komunitas:
+
+### [t.me/ChRichStore](https://t.me/ChRichStore)
+
+Silakan join.
 
 ---
 
-## Cara pakai
+## Cara memakai website
 
-1. Buka [richmusic.vercel.app](https://richmusic.vercel.app)
-2. Setelah update, hard refresh: **Ctrl+Shift+R** (HP: hapus cache / buka tab baru)
-3. Cari lagu, atau pilih dari Home / Charts
-4. Lagu pertama langsung play. Kalau klik lagu lain, Now Playing ganti dulu — tekan **Play** untuk ganti lagu (yang lama tidak langsung berhenti)
-5. Heart = favorit. **Playlist** = simpan ke folder. Di halaman album/artis, **Save** masuk tab Saved
-6. Backup library dari **Library → Backup** sebelum ganti HP
+1. Buka **[richmusic.vercel.app](https://richmusic.vercel.app)**
+2. Setelah ada update, hard refresh: **Ctrl+Shift+R** (HP: hapus cache atau buka tab baru)
+3. Cari lagu, atau pilih dari Home / Charts / Browse all
+4. Lagu pertama langsung play. Kalau klik lagu lain, Now Playing menampilkan lagu baru — tekan **Play** untuk mengganti putaran
+5. Ikon hati = favorit. **Playlist** = simpan ke folder. Di halaman album/artis, **Save** masuk tab Saved
+6. Pindah HP? Library → **Backup**, di perangkat baru **Restore**
 
-### Di HP
-
-Kalau audio berhenti saat pindah aplikasi, di Chrome ketuk **⋮ → Situs desktop**. Itu batas YouTube di HP, bukan error situs.
+**HP:** untuk tetap mendengar saat pindah aplikasi, di Chrome ketuk **⋮ → Situs desktop**.
 
 ---
 
 ## Fitur
 
-**Home** — sapaan, baru saja diputar, Mix for you, liked, playlist, rak YouTube Music.
+### Home
+- Sapaan sesuai waktu dan tanggal
+- Recently played
+- Mix for you — rekomendasi dari favorit & riwayat
+- Liked songs, playlist lokal, item Saved
+- Rak YouTube Music
+- Carousel geser; di desktop ada panah
 
-**Search** — saran ketikan, filter lagu/video/album/artis/playlist, Top result, Browse all (mood & genre).
+### Search
+- Saran otomatis saat mengetik
+- Filter: All, Songs, Videos, Albums, Artists, Playlists
+- Top result sebagai kartu besar
+- Hasil dikelompokkan (lagu, album, artis, playlist)
+- Riwayat pencarian
+- Browse all — mood & genre
 
-**Charts** — tangga lagu dan artis teratas.
+### Charts
+- Tangga lagu, playlist genre, artis teratas
 
-**Library** (tersimpan di HP/laptop ini, tanpa login)
-- Playlist buatanmu (buat, import link YT Music, rename, urutkan)
-- Favorit, Saved, History
-- Statistik dengar
+### Library
+Tanpa login, tersimpan di perangkat ini.
+
+| Tab | Isi |
+| --- | --- |
+| Playlists | Playlist buatanmu + kartu Liked Songs |
+| Favorites | Lagu yang di-heart, Play all / Shuffle |
+| Saved | Album, playlist, artis yang di-Save |
+| History | Yang baru diputar |
+| Stats | Total putar, menit, top artis, lagu terbanyak |
+
+- New playlist
+- Import dari link YouTube Music (playlist, album, artis, lagu)
 - Backup / Restore file JSON
+- Rename, hapus, urutkan lagu (panah atau drag di desktop)
 
-**Player**
-- Shuffle, Repeat (off / semua / satu), kecepatan 0.5×–2×
-- Antrian: Your queue dulu, lalu radio
+### Player
+- Streaming YouTube IFrame (audio YouTube Music)
+- Quality di menu ⋮ — bisa dinaikkan ke YouTube max
 - Preview lagu lain tanpa memutus yang sedang play
-- Lirik sinkron (tap baris = loncat), Related, Share, Download MP3
-- SponsorBlock (skip intro/sponsor, bisa dimatikan)
-- Sleep timer, widget mengambang, mode gelap/terang
-- Quality: audio YouTube Music, atau max YouTube
+- Shuffle & Repeat (mati / semua / satu)
+- Kecepatan 0.5×–2×
+- Antrian: Your queue dulu, lalu radio. Tersimpan saat refresh
+- Play next / Add to queue
+- Related: lagu, album, playlist, artis
+- Lirik sinkron — tap baris untuk loncat
+- Share (menu HP atau salin tautan)
+- Download MP3
+- SponsorBlock — skip intro/sponsor (bisa dimatikan)
+- Sleep timer
+- Widget mengambang + Picture-in-Picture
+- Mode gelap / terang
+- Nama artis bisa diklik ke halaman artis
 
-**Pintasan:** `Space` play/pause · `Shift+→/←` next/prev · `Esc` tutup Now Playing · `L` tema · `P` widget
+### Pintasan keyboard
+
+| Tombol | Aksi |
+| --- | --- |
+| `Space` | Play / Pause |
+| `Shift` + `→` | Berikutnya |
+| `Shift` + `←` | Sebelumnya |
+| `Esc` | Tutup Now Playing |
+| `L` | Ganti tema |
+| `P` | Widget |
 
 ---
 
-## Catatan
+## Menjalankan di komputer sendiri
 
-- Tidak semua lagu punya lirik.
-- Unduh hanya untuk yang memang boleh kamu simpan — patuhi hak cipta.
-- Audio di tab belakang HP lebih stabil dengan **Situs desktop**.
+Perlu [Node.js](https://nodejs.org) 18+ (disarankan 20).
+
+```bash
+git clone https://github.com/ramax100/YT-Music-Mod.git
+cd YT-Music-Mod
+npm install
+npm start
+```
+
+Buka **http://localhost:3000**
 
 ---
 
-**[Buka Rich Music](https://richmusic.vercel.app)** · **[Join Telegram](https://t.me/ChRichStore)**
+## Deploy ke Vercel
+
+```bash
+npm i -g vercel
+cd YT-Music-Mod
+vercel login
+vercel --prod
+```
+
+Atau di dashboard Vercel: **Import Git Repository** → pilih `ramax100/YT-Music-Mod` → Deploy.
+
+Setelah update, hard refresh browser (**Ctrl+Shift+R**).
+
+---
+
+## Isi repo
+
+```
+YT-Music-Mod/
+├── public/           # website (HTML, CSS, JS, logo)
+├── server.js         # API: YouTube Music, lirik, download
+├── api/index.js      # entry Vercel
+├── vercel.json
+├── package.json
+└── README.md
+```
+
+---
+
+## Lisensi
+
+**Gratis. Bebas dipakai.**
+
+Jalankan, bagikan, ubah, dan deploy ulang sesukamu. Tidak ada biaya.
+
+Hormati hak cipta saat memakai unduhan. Cantumkan tautan repo atau channel jika membagikan ulang — dihargai, bukan wajib.
+
+---
+
+**[Buka Rich Music](https://richmusic.vercel.app)** · **[Join Telegram](https://t.me/ChRichStore)** · **[GitHub](https://github.com/ramax100/YT-Music-Mod)**
