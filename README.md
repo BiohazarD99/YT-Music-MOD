@@ -33,11 +33,10 @@ Silakan join.
 ## Cara memakai website
 
 1. Buka **[richmusic.vercel.app](https://richmusic.vercel.app)**
-2. Setelah ada update, hard refresh: **Ctrl+Shift+R** (HP: hapus cache atau buka tab baru)
-3. Cari lagu, atau pilih dari Home / Charts / Browse all
-4. Lagu pertama langsung play. Kalau klik lagu lain, Now Playing menampilkan lagu baru — tekan **Play** untuk mengganti putaran
-5. Ikon hati = favorit. **Playlist** = simpan ke folder. Di halaman album/artis, **Save** masuk tab Saved
-6. Pindah HP? Library → **Backup**, di perangkat baru **Restore**
+2. Cari lagu, atau pilih dari Home / Charts / Browse all
+3. Lagu pertama langsung play. Kalau klik lagu lain, Now Playing menampilkan lagu baru — tekan **Play** untuk mengganti putaran
+4. Ikon hati = favorit. **Playlist** = simpan ke folder. Di halaman album/artis, **Save** masuk tab Saved
+5. Pindah HP? Library → **Backup**, di perangkat baru **Restore**
 
 **HP:** untuk tetap mendengar saat pindah aplikasi, di Chrome ketuk **⋮ → Situs desktop**.
 
@@ -136,8 +135,6 @@ vercel --prod
 ```
 
 Atau di dashboard Vercel: **Import Git Repository** → pilih `ramax100/YT-Music-Mod` → Deploy.
-
-Setelah update, hard refresh browser (**Ctrl+Shift+R**).
 
 ---
 
