@@ -168,8 +168,6 @@ YT-Music-Mod/
 
 Jalankan, bagikan, ubah, dan deploy ulang sesukamu. Tidak ada biaya.
 
-Hormati hak cipta saat memakai unduhan. Cantumkan tautan repo atau channel jika membagikan ulang — dihargai, bukan wajib.
-
 ---
 
 **[Buka Rich Music](https://richmusic.vercel.app)** · **[Join Telegram](https://t.me/ChRichStore)** · **[GitHub](https://github.com/ramax100/YT-Music-Mod)**
