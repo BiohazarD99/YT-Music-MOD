@@ -38,7 +38,13 @@ Silakan join.
 4. Ikon hati = favorit. **Playlist** = simpan ke folder. Di halaman album/artis, **Save** masuk tab Saved
 5. Pindah HP? Library → **Backup**, di perangkat baru **Restore**
 
-**HP:** untuk tetap mendengar saat pindah aplikasi, di Chrome ketuk **⋮ → Situs desktop**.
+### Putar di latar belakang (Android)
+
+Musik tetap jalan saat layar terkunci atau pindah aplikasi, **tanpa mode desktop**.
+
+Buka [richmusic.vercel.app](https://richmusic.vercel.app) di **[Brave Browser](https://play.google.com/store/apps/details?id=com.brave.browser)** — putar lagu, lalu keluar dari tab atau kunci HP. Audio tetap berlanjut.
+
+Di Chrome, aktifkan **⋮ → Situs desktop** jika ingin hasil serupa.
 
 ---
 
