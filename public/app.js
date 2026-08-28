@@ -1,5 +1,5 @@
 /* ============================================================
-   Rich Music — SPA frontend
+   LIF Music — SPA frontend
    Streams via the official YouTube IFrame player, metadata via
    the local proxy to YouTube Music, synced lyrics via LRCLIB.
    ============================================================ */
