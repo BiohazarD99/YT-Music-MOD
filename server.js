@@ -849,7 +849,7 @@ app.get('/api/thumb', async (req, res) => {
       host.endsWith('googleusercontent.com');
     if (!ok) return res.status(400).end();
     const r = await fetch(raw, {
-      headers: { 'User-Agent': 'Mozilla/5.0 RichMusicThumb/1.0', Accept: 'image/*' },
+      headers: { 'User-Agent': 'Mozilla/5.0 LIFMusicThumb/1.0', Accept: 'image/*' },
     });
     if (!r.ok) return res.status(502).end();
     res.setHeader('Content-Type', r.headers.get('content-type') || 'image/jpeg');
@@ -864,6 +864,6 @@ app.use((req, res) => res.sendFile(path.join(__dirname, 'public', 'index.html'))
 
 const PORT = process.env.PORT || 3000;
 if (require.main === module) {
-  app.listen(PORT, '0.0.0.0', () => console.log(`Rich Music running on :${PORT}`));
+  app.listen(PORT, '0.0.0.0', () => console.log(`LIF Music running on :${PORT}`));
 }
 module.exports = app;
