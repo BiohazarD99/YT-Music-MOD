@@ -1,4 +1,4 @@
-/* Rich Music - backend proxy for YouTube Music InnerTube API + LRCLIB lyrics */
+/* LIF Music - backend proxy for YouTube Music InnerTube API + LRCLIB lyrics */
 const express = require('express');
 const path = require('path');
 
